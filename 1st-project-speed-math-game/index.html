@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speed Math</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="score__time">
+        <div class="score"></div>
+        <div class="timer"></div>
+    </div>
+    <div class="container">
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%"
+                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="equation">
+            <h2>PLAY NOW!</h2>
+        </div>
+        <div class="control">
+            <button class="correct click " value="true">✔</button>
+            <button class="wrong click" value="false">✘</button>
+        </div>
+        <div class="start"><button class="start__button">
+                <h1>START</h1>
+            </button></div>
+    </div>
+
+    <!-- <div><h4>You have 10 seconds to answer as many times questions as possible. -->
+    <!-- Each correct answer buys you one second of extra time. But beware, get one wrong answer, the game is over!</h4></div> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

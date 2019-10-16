@@ -1,0 +1,107 @@
+
+
+body {
+    display: grid;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(to right,#000046, #1cb5e0 )
+}
+* {
+    /* border-radius: 30px; */
+    font-family: 'Varela Round', sans-serif;
+}
+.container {
+    
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    background-color: rgba(14, 95, 133, 0.815);
+    margin-bottom: 20%;
+    border: 10px solid rgba(14, 95, 133, 0.815);
+    border-radius: 10px;
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+.control {
+    text-align: center;
+    vertical-align: bottom;
+    height: 28%;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr;
+}
+.correct {
+    background-color: rgb(214, 218, 214);
+    width:45%;
+    height:140px;
+    margin:auto;
+    font-size: 100px;
+    color: green;
+    /* border: 10px solid rgb(214, 218, 214); */
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.correct > * {
+    margin-left: 20px;
+}
+.wrong {
+    background-color: rgb(214, 218, 214);
+    width:45%;
+    height:140px;
+    margin:auto;
+    font-size: 100px;
+    color: red;
+    /* border: 10px solid rgb(214, 218, 214); */
+    border-radius: 10px;
+}
+
+.equation {
+    
+    margin: 0 auto;
+    width: 90%;
+    height: 40%;
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(233, 246, 248);
+    border: 10px solid rgba(14, 95, 133, 0.815);
+    border-radius: 10px;
+}
+.start__button {
+    width: 40%;
+    height: 70px;
+    border: 10px solid rgb(214, 218, 214);
+    border-radius: 10px;
+    background-color: rgb(214, 218, 214);
+    text-align: center
+}
+h2  {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10%;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+h4  {
+    margin: auto 5px;
+}
+
+.score  {
+    font-size: 30px; 
+    color: white;
+    margin-top: 20px
+}
+
+.progress{
+    border-radius: 0px;
+    height:40px;
+    margin-bottom: 5px;    
+}     
